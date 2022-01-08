@@ -1,177 +1,232 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
-	
-	<title>About page | Initio - Free, multipurpose html5 template by GetTemplate</title>
+  <meta charset="utf-8">
+  <title>Alex Wilson</title>
 
-	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
-	
-	<!-- Bootstrap -->
-	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
-	<!-- Icon font -->
-	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-	<!-- Fonts -->
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
-	<!-- Custom styles -->
-	<link rel="stylesheet" href="assets/css/styles.css">
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
 
-	<!--[if lt IE 9]> <script src="assets/js/html5shiv.js"></script> <![endif]-->
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+  
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
 </head>
+
 <body>
+  
 
-<header id="header">
-	<div id="head" class="parallax" parallax-speed="1">
-		<h1 id="logo" class="text-center">
-			<span class="title">Anthony Russel</span>
-			<span class="tagline">A mystery person<br>
-				<a href="">anthony.russel42@example.com</a></span>
-		</h1>
-	</div>
+<header class="navigation fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand font-tertiary h3" id="lol" href="index.html"><img src="images/white_logo_transparent_background.png" alt="Myself"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-	<nav class="navbar navbar-default">
-		<div class="container-fluid">
-			
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-			</div>
-			
-			<div class="navbar-collapse collapse">
-				
-				<ul class="nav navbar-nav">
-					<li><a href="index.html">Home</a></li>
-					<li class="active"><a href="about.html">About</a></li>
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">More Pages <b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li><a href="sidebar-left.html">Left Sidebar</a></li>
-							<li><a href="sidebar-right.html">Right Sidebar</a></li>
-							<li><a href="single.html">Blog Post</a></li>
-						</ul>
-					</li>
-					<li><a href="blog.html">Blog</a></li>
-				</ul>
-			
-			</div><!--/.nav-collapse -->			
-		</div>	
-	</nav>
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">about</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 </header>
 
-<main id="main">
+<!-- page title -->
+<section class="page-title-alt bg-primary position-relative">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="text-white font-tertiary">About Me</h1>
+      </div>
+    </div>
+  </div>
+  <!-- background shapes -->
+  <!--<img src="images/illustrations/leaf-bg-top.png" alt="illustrations" class="bg-shape-1 w-100">-->
+  <img src="images/illustrations/dots-group-sm.png" alt="illustrations" class="bg-shape-2">
+  <img src="images/illustrations/leaf-yellow.png" alt="illustrations" class="bg-shape-3">
+  <img src="images/illustrations/leaf-orange.png" alt="illustrations" class="bg-shape-4">
+  <img src="images/illustrations/dots-group-cyan.png" alt="illustrations" class="bg-shape-5">
+  <img src="images/illustrations/leaf-cyan-lg.png" alt="illustrations" class="bg-shape-6">
+</section>
+<!-- /page title -->
 
-	<div class="container">
+<!-- about -->
+<section class="section pt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <p>Hello! My name is Alex Wilson and I am from Everett, Washington. I am currently a senior studying Computer Science 
+           at Western Washington University and have a passion for Web Development!
+        </p>
+      </div>
+      <div class="col-md-4 text-center drag-lg-top">
+        <div class="shadow-down mb-4">
+          <img src="images/newPic.JPG" alt="author" class="img-fluid w-100 rounded-lg border-thick border-white">
+        </div>
+        <!--<img src="images/about/signature.png" alt="signature" class="img-fluid"> -->
+        <h4>Alex Wilson</h4>
+      </div>
+    </div>
+  </div>
+</section>
 
-		<div class="row topspace">
-			
-			<!-- Sidebar -->
-			<aside class="col-sm-4 sidebar sidebar-right">
+<!-- team -->
+<section class="section bg-cover" data-background="images/backgrounds/team-bg.png">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Interests</h2>
+      </div>
+      <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+        <div class="card text-center">
+          <img src="images/react.png" class="card-img-top">
+          <div class="card-body">
+            <h4 class="card-title">Currently Learning: </h4>
+            <p class="text-light font-secondary">React.js</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+        <div class="card text-center">
+          <img src="images/messi.jpeg" class="card-img-top">
+          <div class="card-body">
+            <h4 class="card-title">Playing and Watching Fútbol</h4>
+            <p class="text-light font-secondary">I was introduced to the beautiful game in middle school and it has been my passion ever since. <br> Fun fact, I currently manage a Sunday League team in the Skagit Premier Soccer League in Skagit, WA.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+        <div class="card text-center">
+          <img src="images/Graduation.jpeg" class="card-img-top">
+          <div class="card-body">
+            <h4 class="card-title">3 Albums I'm listening to:</h4>
+            <p class="text-light font-secondary">Graduation</p>
+            <p class="text-light font-secondary">Blonde</p>
+            <p class="text-light font-secondary">Donda</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+        <div class="card text-center">
+          <img src="images/pho.jpeg" class="card-img-top">
+          <div class="card-body">
+            <h4 class="card-title">3 Favorite Dishes: </h4>
+            <p class="text-light font-secondary">Phở</p>
+            <p class="text-light font-secondary">Sushi</p>
+            <p class="text-light font-secondary">Carne Asada Tacos</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+        <div class="card text-center">
+          <img src="images/halo.png" class="card-img-top">
+          <div class="card-body">
+            <h4 class="card-title">3 Games I'm Playing: </h4>
+            <p class="text-light font-secondary">Halo Infinite</p>
+            <p class="text-light font-secondary">FIFA 22</p>
+            <p class="text-light font-secondary">Forza Horizon 5</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /team -->
 
-				<ul class="nav text-right nav-side">
-					<li class="active"><a href="#ui">UI design</a></li>
-					<li><a href="#frontend">Frontend development</a></li>
-					<li><a href="#backend">Backend development</a></li>
-					<li><a href="#projects">Side projects</a></li>
-				</ul>
+<!-- contact -->
+<section class="section section-on-footer" data-background="images/backgrounds/bg-dots.png">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Contact Info</h2>
+      </div>
+      <div class="col-lg-8 mx-auto">
+        <div class="bg-white rounded text-center p-5 shadow-down">
+          <h4 class="mb-80">Contact Form</h4>
+          <form method="POST" action="https://formspree.io/f/xbjqzybq" class="row">
+            <div class="col-md-6">
+              <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
+            </div>
+            <div class="col-md-6">
+              <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4">
+            </div>
+            <div class="col-12">
+              <textarea name="message" id="message" class="form-control px-0 mb-4"
+                placeholder="Type Message Here"></textarea>
+            </div>
+            <div class="col-lg-6 col-10 mx-auto">
+              <button class="btn btn-primary w-100">send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /contact -->
 
-			</aside>
-			<!-- /Sidebar -->
-
-			<!-- Article main content -->
-			<article class="col-sm-8 maincontent">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam beatae soluta accusantium iusto nihil nesciunt unde veniam magnam repudiandae sapiente.</p>
-				<p><img src="assets/images/mac.jpg" alt="" class="" width="100%" ></p>
-				<h3>Necessitatibus</h3>
-				<p>Velit, odit, eius, libero unde impedit quaerat dolorem assumenda alias consequuntur optio quae maiores ratione tempore sit aliquid architecto eligendi pariatur ab soluta doloremque dicta aspernatur labore quibusdam dolore corrupti quod inventore. Maiores, repellat, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam!</p>
-				<h3>Fugit, laboriosam</h3>
-				<p>Eum, quasi, est, vitae, ipsam nobis consectetur ea aspernatur ad eos voluptatibus fugiat nisi perferendis impedit. Quam, nulla, excepturi, voluptate minus illo tenetur sint ab in culpa cumque impedit quibusdam. Saepe, molestias quia voluptatem natus velit fugiat omnis rem eos sapiente quasi quaerat aspernatur quisquam deleniti accusantium laboriosam odio id?</p>
-			</article>
-			<!-- /Article -->
-			
-
-		</div>
-	</div>	<!-- /container -->
-	
-</main>
-
-<footer id="footer" class="topspace">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-3 widget">
-				<h3 class="widget-title">Contact</h3>
-				<div class="widget-body">
-					<p>+234 23 9873237<br>
-						<a href="mailto:#">some.email@somewhere.com</a><br>
-						<br>
-						234 Hidden Pond Road, Ashland City, TN 37015
-					</p>	
-				</div>
-			</div>
-
-			<div class="col-md-3 widget">
-				<h3 class="widget-title">Follow me</h3>
-				<div class="widget-body">
-					<p class="follow-me-icons">
-						<a href=""><i class="fa fa-twitter fa-2"></i></a>
-						<a href=""><i class="fa fa-dribbble fa-2"></i></a>
-						<a href=""><i class="fa fa-github fa-2"></i></a>
-						<a href=""><i class="fa fa-facebook fa-2"></i></a>
-					</p>
-				</div>
-			</div>
-
-			<div class="col-md-3 widget">
-				<h3 class="widget-title">Text widget</h3>
-				<div class="widget-body">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nihil natus explicabo ipsum quia iste aliquid repellat eveniet velit ipsa sunt libero sed aperiam id soluta officia asperiores adipisci maxime!</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nihil natus explicabo ipsum quia iste aliquid repellat eveniet velit ipsa sunt libero sed aperiam id soluta officia asperiores adipisci maxime!</p>
-				</div>
-			</div>
-
-			<div class="col-md-3 widget">
-				<h3 class="widget-title">Form widget</h3>
-				<div class="widget-body">
-					<p>+234 23 9873237<br>
-						<a href="mailto:#">some.email@somewhere.com</a><br>
-						<br>
-						234 Hidden Pond Road, Ashland City, TN 37015
-					</p>	
-				</div>
-			</div>
-
-		</div> <!-- /row of widgets -->
-	</div>
+<!-- footer -->
+<footer class="bg-dark footer-section">
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5 class="text-light">Email</h5>
+          <p class="text-white paragraph-lg font-secondary">alexjowilson7@gmail.com</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light">Phone</h5>
+          <p class="text-white paragraph-lg font-secondary">+425 551 0251</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light">Location</h5>
+          <p class="text-white paragraph-lg font-secondary">Bellingham, WA, USA</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="border-top text-center border-dark py-5">
+    <p class="mb-0 text-light">Created by Alex Wilson | © <script>
+        var CurrentYear = new Date().getFullYear()
+        document.write(CurrentYear)
+      </script> All rights reserved.</p>
+  </div>
 </footer>
+<!-- /footer -->
 
-<footer id="underfooter">
-	<div class="container">
-		<div class="row">
-			
-			<div class="col-md-6 widget">
-				<div class="widget-body">
-					<p>234 Hidden Pond Road, Ashland City, TN 37015 </p>
-				</div>
-			</div>
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- filter -->
+<script src="plugins/shuffle/shuffle.min.js"></script>
 
-			<div class="col-md-6 widget">
-				<div class="widget-body">
-					<p class="text-right">
-						Copyright &copy; 2014, Your awesome name here<br> 
-						Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> </p>
-				</div>
-			</div>
+<!-- Main Script -->
+<script src="js/script.js"></script>
 
-		</div> <!-- /row of widgets -->
-	</div>
-</footer>
-
-
-
-<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-<script src="assets/js/template.js"></script>
 </body>
 </html>

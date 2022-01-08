@@ -1,228 +1,281 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
-	
-	<title>Blog | Initio - Free, multipurpose html5 template by GetTemplate</title>
+  <meta charset="utf-8">
+  <title>Kross | Portfolio Template</title>
 
-	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
-	
-	<!-- Bootstrap -->
-	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
-	<!-- Icon font -->
-	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-	<!-- Fonts -->
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
-	<!-- Custom styles -->
-	<link rel="stylesheet" href="assets/css/styles.css">
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
 
-	<!--[if lt IE 9]> <script src="assets/js/html5shiv.js"></script> <![endif]-->
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+  
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
 </head>
+
 <body>
+  
 
-<header id="header">
-	<div id="head" class="parallax" parallax-speed="1">
-		<h1 id="logo" class="text-center">
-			<img class="img-circle" src="assets/images/guy.jpg" alt="">
-			<span class="title">Anthony Russel's Blog</span>
-			<span class="tagline">A creative man is motivated by the desire to achieve, not by the desire to beat others.</span>
-		</h1>
-	</div>
+<header class="navigation fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand font-tertiary h3" href="index.html"><img src="images/logo.png" alt="Myself"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-	<nav class="navbar navbar-default navbar-sticky">
-		<div class="container-fluid">
-			
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-			</div>
-			
-			<div class="navbar-collapse collapse">
-				
-				<ul class="nav navbar-nav">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">More Pages <b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li><a href="sidebar-left.html">Left Sidebar</a></li>
-							<li><a href="sidebar-right.html">Right Sidebar</a></li>
-							<li><a href="single.html">Blog Post</a></li>
-						</ul>
-					</li>
-					<li class="active"><a href="blog.html">Blog</a></li>
-				</ul>
-			
-			</div><!--/.nav-collapse -->			
-		</div>	
-	</nav>
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">about</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 </header>
 
-<main id="main">
+<!-- page title -->
+<section class="page-title bg-primary position-relative">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="text-white font-tertiary">Blogs</h1>
+      </div>
+    </div>
+  </div>
+  <!-- background shapes -->
+  <img src="images/illustrations/page-title.png" alt="illustrations" class="bg-shape-1 w-100">
+  <img src="images/illustrations/leaf-pink-round.png" alt="illustrations" class="bg-shape-2">
+  <img src="images/illustrations/dots-cyan.png" alt="illustrations" class="bg-shape-3">
+  <img src="images/illustrations/leaf-orange.png" alt="illustrations" class="bg-shape-4">
+  <img src="images/illustrations/leaf-yellow.png" alt="illustrations" class="bg-shape-5">
+  <img src="images/illustrations/dots-group-cyan.png" alt="illustrations" class="bg-shape-6">
+  <img src="images/illustrations/leaf-cyan-lg.png" alt="illustrations" class="bg-shape-7">
+</section>
+<!-- /page title -->
 
-	<div class="container">
-		<div class="row topspace">
-			<div class="col-sm-8 col-sm-offset-2">
-															
-				<article class="post">
-					<header class="entry-header">
-						<div class="entry-meta"> 
-							<span class="posted-on"><time class="entry-date published" date="2013-09-27">September 27, 2013</time></span>			
-						</div>
-						<h1 class="entry-title"><a href="single.html" rel="bookmark">Hello world!</a></h1>
-					</header>
-					<div class="entry-content">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, molestias, architecto, adipisci, numquam dolor iusto eos reprehenderit placeat quam debitis quas magni eveniet. Saepe, nam, iste consectetur quae necessitatibus dolores provident veritatis possimus rerum facilis quia dicta itaque sapiente iusto natus quidem magni quibusdam. Explicabo nesciunt vel rem obcaecati reprehenderit eveniet culpa repudiandae. Distinctio, quia, provident illum necessitatibus repellendus rem voluptates exercitationem numquam inventore itaque atque sint nihil eveniet consequuntur eius! Laborum, at sit animi quae quidem ex tempora facilis.</p>
-					</div>
-				</article>
- 				
- 				<article class="post">
-					<header class="entry-header">
- 						<div class="entry-meta"> 
- 							<span class="posted-on"><time class="entry-date published" date="2013-06-17">June 17, 2013</time></span>			
- 						</div> 
- 						<h1 class="entry-title"><a href="single.html" rel="bookmark">Vivamus Lacus Mauris</a></h1>
-					</header> 
-					<div class="entry-content"> 
-						<p><img alt="" src="assets/images/mac.jpg"></p>
-						<p>Mauris eget quam orci. Quisque porta varius dui, quis posuere nibh mollis quis. Mauris commodo rhoncus porttitor. Maecenas et euismod elit. Nulla facilisi. Vivamus lacus libero, ultrices non ullamcorper ac, tempus sit amet enim. Suspendisse at semper ipsum. Suspendisse sagittis diam a massa viverra sollicitudin. Vivamus sagittis est eu diam fringilla nec tristique metus vestibulum. Donec magna purus, pellentesque vel lobortis ut, convallis id augue. Sed odio magna, pellentesque eget convallis ac, vehicula vel arcu. Sed eu scelerisque dui. Sed eu arcu at nibh hendrerit viverra. Vivamus lacus augue, sodales id cursus in, condimentum at risus. <a href="single.html" class="more-link">Continue reading&#8230;</a></p>
-					</div> 
-				</article><!-- #post-## -->
-											
-				<article class="post">
-					<header class="entry-header">
- 						<div class="entry-meta"> 
- 							<span class="posted-on"><time class="entry-date published" date="2013-06-17">June 17, 2013</time></span>			
- 						</div> 
- 						<h1 class="entry-title"><a href="single.html" rel="bookmark">Vivamus Lacus Mauris</a></h1>
-					</header> 
-					<div class="entry-content"> 
-						<p>Mauris eget quam orci. Quisque porta varius dui, quis posuere nibh mollis quis. Mauris commodo rhoncus porttitor. Maecenas et euismod elit. Nulla facilisi. Vivamus lacus libero, ultrices non ullamcorper ac, tempus sit amet enim. Suspendisse at semper ipsum. Suspendisse sagittis diam a massa viverra sollicitudin. Vivamus sagittis est eu diam fringilla nec tristique metus vestibulum. Donec magna purus, pellentesque vel lobortis ut, convallis id augue. Sed odio magna, pellentesque eget convallis ac, vehicula vel arcu. Sed eu scelerisque dui. Sed eu arcu at nibh hendrerit viverra. Vivamus lacus augue, sodales id cursus in, condimentum at risus.</p>
-					</div> 
-				</article><!-- #post-## -->
-											
-				<article class="post">
-					<header class="entry-header"> 
-						<div class="entry-meta"> 
-							<span class="posted-on"><time class="entry-date published" date="2013-04-04">April 4, 2013</time></span>			
-						</div>
-						<h1 class="entry-title"><a href="single.html" rel="bookmark">Maecenas Quisque Suspendisse Lorem</a></h1>
-					</header>
-					<div class="entry-content">
-						<p>Mauris eget quam orci. Quisque porta varius dui, quis posuere nibh mollis quis. Mauris commodo rhoncus porttitor. Maecenas et euismod elit. Nulla facilisi. Vivamus lacus libero, ultrices non ullamcorper ac, tempus sit amet enim. Suspendisse at semper ipsum. Suspendisse sagittis diam a massa viverra sollicitudin. Vivamus sagittis est eu diam fringilla nec tristique metus vestibulum. Donec magna purus, pellentesque vel lobortis ut, convallis id augue. Sed odio magna, pellentesque eget convallis ac, vehicula vel arcu. Sed eu scelerisque dui. Sed eu arcu at nibh hendrerit viverra. Vivamus lacus augue, sodales id cursus in, condimentum at risus. <a href="single.html" class="more-link">Continue reading&#8230;</a></p>
-					</div>
- 				</article><!-- #post-## -->
-											
-				<article class="post">
-					<header class="entry-header">
- 						<div class="entry-meta"> 
- 							<span class="posted-on"><time class="entry-date published" date="2013-03-20">March 20, 2013</time></span>			
- 						</div>
-						<h1 class="entry-title"><a href="single.html" rel="bookmark">Pellentesque Eget Convallis</a></h1>
-					</header>
-					<div class="entry-content">
-						<p>Mauris eget quam orci. Quisque porta varius dui, quis posuere nibh mollis quis. Mauris commodo rhoncus porttitor. Maecenas et euismod elit. Nulla facilisi. Vivamus lacus libero, ultrices non ullamcorper ac, tempus sit amet enim. Suspendisse at semper ipsum. Suspendisse sagittis diam a massa viverra sollicitudin. Vivamus sagittis est eu diam fringilla nec tristique metus vestibulum. Donec magna purus, pellentesque vel lobortis ut, convallis id augue. Sed odio magna, pellentesque eget convallis ac, vehicula vel arcu. Sed eu scelerisque dui. Sed eu arcu at nibh hendrerit viverra. Vivamus lacus augue, sodales id cursus in, condimentum at risus. <a href="single.html" class="more-link">Continue reading&#8230;</a></p>
-					</div>
-				</article><!-- #post-## --> 
-			</div> 
-		</div>
+<!-- blog -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <article class="card shadow">
+            <img class="rounded card-img-top" src="images/blog/post-5.jpg" alt="post-thumb">
+            <div class="card-body">
+              <h4 class="card-title"><a class="text-dark" href="blog-single.html">Amazon increase income 1.5 Million</a>
+              </h4>
+              <p class="cars-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                incididunt ut labore et
+                dolore magna aliqua.</p>
+              <a href="blog-single.html" class="btn btn-xs btn-primary">Read More</a>
+            </div>
+          </article>
+        </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/blog/post-2.jpg" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title"><a class="text-dark" href="blog-single.html">Amazon increase income 1.5 Million</a>
+            </h4>
+            <p class="cars-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et
+              dolore magna aliqua.</p>
+            <a href="blog-single.html" class="btn btn-xs btn-primary">Read More</a>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/blog/post-3.jpg" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title"><a class="text-dark" href="blog-single.html">Amazon increase income 1.5 Million</a>
+            </h4>
+            <p class="cars-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et
+              dolore magna aliqua.</p>
+            <a href="blog-single.html" class="btn btn-xs btn-primary">Read More</a>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/blog/post-4.jpg" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title"><a class="text-dark" href="blog-single.html">Amazon increase income 1.5 Million</a>
+            </h4>
+            <p class="cars-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et
+              dolore magna aliqua.</p>
+            <a href="blog-single.html" class="btn btn-xs btn-primary">Read More</a>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/blog/post-5.jpg" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title"><a class="text-dark" href="blog-single.html">Amazon increase income 1.5 Million</a>
+            </h4>
+            <p class="cars-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et
+              dolore magna aliqua.</p>
+            <a href="blog-single.html" class="btn btn-xs btn-primary">Read More</a>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/blog/post-2.jpg" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title"><a class="text-dark" href="blog-single.html">Amazon increase income 1.5 Million</a>
+            </h4>
+            <p class="cars-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et
+              dolore magna aliqua.</p>
+            <a href="blog-single.html" class="btn btn-xs btn-primary">Read More</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /blog -->
 
-		<center class="">
-			<ul class="pagination">
-				<li class="disabled"><a href="">&laquo;</a></li>
-				<li class="active"><a href="">1</a></li>
-				<li><a href="">2</a></li>
-				<li><a href="">3</a></li>
-				<li><a href="">4</a></li>
-				<li><a href="">5</a></li>
-				<li><a href="">6</a></li>
-				<li><a href="">&raquo;</a></li>
-			</ul>
-		</center>
-	
+<!-- clients -->
+<section class="section bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">My Clients</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="client-logo-slider d-flex align-items-center">
+          <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+              src="images/clients-logo/client-logo-1.png" alt="client-logo"></a>
+          <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+              src="images/clients-logo/client-logo-2.png" alt="client-logo"></a>
+          <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+              src="images/clients-logo/client-logo-3.png" alt="client-logo"></a>
+          <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+              src="images/clients-logo/client-logo-4.png" alt="client-logo"></a>
+          <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+              src="images/clients-logo/client-logo-5.png" alt="client-logo"></a>
+          <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+              src="images/clients-logo/client-logo-1.png" alt="client-logo"></a>
+          <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+              src="images/clients-logo/client-logo-2.png" alt="client-logo"></a>
+          <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+              src="images/clients-logo/client-logo-3.png" alt="client-logo"></a>
+          <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+              src="images/clients-logo/client-logo-4.png" alt="client-logo"></a>
+          <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+              src="images/clients-logo/client-logo-5.png" alt="client-logo"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /clients -->
 
-	</div>	<!-- /container -->
+<!-- contact -->
+<section class="section section-on-footer" data-background="images/backgrounds/bg-dots.png">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Contact Info</h2>
+      </div>
+      <div class="col-lg-8 mx-auto">
+        <div class="bg-white rounded text-center p-5 shadow-down">
+          <h4 class="mb-80">Contact Form</h4>
+          <form action="#" class="row">
+            <div class="col-md-6">
+              <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
+            </div>
+            <div class="col-md-6">
+              <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4">
+            </div>
+            <div class="col-12">
+              <textarea name="message" id="message" class="form-control px-0 mb-4"
+                placeholder="Type Message Here"></textarea>
+            </div>
+            <div class="col-lg-6 col-10 mx-auto">
+              <button class="btn btn-primary w-100">send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /contact -->
 
-</main>
-
-<footer id="footer" class="topspace">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-3 widget">
-				<h3 class="widget-title">Contact</h3>
-				<div class="widget-body">
-					<p>+234 23 9873237<br>
-						<a href="mailto:#">some.email@somewhere.com</a><br>
-						<br>
-						234 Hidden Pond Road, Ashland City, TN 37015
-					</p>	
-				</div>
-			</div>
-
-			<div class="col-md-3 widget">
-				<h3 class="widget-title">Follow me</h3>
-				<div class="widget-body">
-					<p class="follow-me-icons">
-						<a href=""><i class="fa fa-twitter fa-2"></i></a>
-						<a href=""><i class="fa fa-dribbble fa-2"></i></a>
-						<a href=""><i class="fa fa-github fa-2"></i></a>
-						<a href=""><i class="fa fa-facebook fa-2"></i></a>
-					</p>
-				</div>
-			</div>
-
-			<div class="col-md-3 widget">
-				<h3 class="widget-title">Text widget</h3>
-				<div class="widget-body">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nihil natus explicabo ipsum quia iste aliquid repellat eveniet velit ipsa sunt libero sed aperiam id soluta officia asperiores adipisci maxime!</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nihil natus explicabo ipsum quia iste aliquid repellat eveniet velit ipsa sunt libero sed aperiam id soluta officia asperiores adipisci maxime!</p>
-				</div>
-			</div>
-
-			<div class="col-md-3 widget">
-				<h3 class="widget-title">Form widget</h3>
-				<div class="widget-body">
-					<p>+234 23 9873237<br>
-						<a href="mailto:#">some.email@somewhere.com</a><br>
-						<br>
-						234 Hidden Pond Road, Ashland City, TN 37015
-					</p>	
-				</div>
-			</div>
-
-		</div> <!-- /row of widgets -->
-	</div>
+<!-- footer -->
+<footer class="bg-dark footer-section">
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5 class="text-light">Email</h5>
+          <p class="text-white paragraph-lg font-secondary">steve.fruits@email.com</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light">Phone</h5>
+          <p class="text-white paragraph-lg font-secondary">+880 2544 658 256</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light">Address</h5>
+          <p class="text-white paragraph-lg font-secondary">125/A, CA Commercial Area, California, USA</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="border-top text-center border-dark py-5">
+    <p class="mb-0 text-light">Copyright ©<script>
+        var CurrentYear = new Date().getFullYear()
+        document.write(CurrentYear)
+      </script> a theme by <a href="https://themefisher.com">themefisher.com</a></p>
+  </div>
 </footer>
+<!-- /footer -->
 
-<footer id="underfooter">
-	<div class="container">
-		<div class="row">
-			
-			<div class="col-md-6 widget">
-				<div class="widget-body">
-					<p>234 Hidden Pond Road, Ashland City, TN 37015 </p>
-				</div>
-			</div>
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- filter -->
+<script src="plugins/shuffle/shuffle.min.js"></script>
 
-			<div class="col-md-6 widget">
-				<div class="widget-body">
-					<p class="text-right">
-						Copyright &copy; 2014, Your awesome name here<br> 
-						Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> </p>
-				</div>
-			</div>
+<!-- Main Script -->
+<script src="js/script.js"></script>
 
-		</div> <!-- /row of widgets -->
-	</div>
-</footer>
-
-
-
-<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-<script src="assets/js/template.js"></script>
 </body>
 </html>

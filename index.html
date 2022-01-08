@@ -1,290 +1,372 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
-	
-	<title>Marcaus Cruz's Personal Website</title>
+  <meta charset="utf-8">
+  <title>Alex Wilson</title>
 
-	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
-	
-	<!-- Bootstrap -->
-	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
-	<!-- Icons -->
-	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-	<!-- Fonts -->
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
-	<!-- Custom styles -->
-	<link rel="stylesheet" href="assets/css/styles.css">
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
 
-	<!--[if lt IE 9]> <script src="assets/js/html5shiv.js"></script> <![endif]-->
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+  
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
 </head>
-<body class="home">
 
-<header id="header">
-	<div id="head" class="parallax" parallax-speed="2">
-		<h1 id="logo" class="text-center">
-			<img class="img-circle" src="assets/images/guy.jpg" alt="">
-			<span class="title">Marcaus Cruz</span>
-			<span class="tagline">A mystery person<br>
-				<a href="">marcauscruz@gmail.com</a></span>
-		</h1>
-	</div>
+<body>
+  
 
-	<nav class="navbar navbar-default navbar-sticky">
-		<div class="container-fluid">
-			
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-			</div>
-			
-			<div class="navbar-collapse collapse">
-				
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">More Pages <b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li><a href="sidebar-left.html">Left Sidebar</a></li>
-							<li><a href="sidebar-right.html">Right Sidebar</a></li>
-							<li><a href="single.html">Blog Post</a></li>
-						</ul>
-					</li>
-					<li><a href="blog.html">Blog</a></li>
-				</ul>
-			
-			</div><!--/.nav-collapse -->			
-		</div>	
-	</nav>
+<header class="navigation fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand font-tertiary h3" id="lol" href="index.html"><img src="images/white_logo_transparent_background.png" alt="Myself"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">about</a>
+        </li>
+        <!--
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>-->
+        <!--
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>-->
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 </header>
 
-<main id="main">
+<!-- hero area -->
+<section class="hero-area bg-primary" id="parallax">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-11 mx-auto">
+        <h1 class="text-white font-tertiary">Hello! I’m <br> Alex Wilson <br> Software Developer</h1>
+      </div>
+    </div>
+  </div>
+  <div class="layer-bg w-100">
+    <!--<img class="img-fluid w-100" src="images/illustrations/leaf-bg.png" alt="bg-shape">-->
+  </div>
+  <div class="layer" id="l2">
+    <img src="images/illustrations/dots-cyan.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l3">
+    <img src="images/illustrations/leaf-orange.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l4">
+    <img src="images/illustrations/dots-orange.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l5">
+    <img src="images/illustrations/leaf-yellow.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l6">
+    <img src="images/illustrations/leaf-cyan.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l7">
+    <img src="images/illustrations/dots-group-orange.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l8">
+    <img src="images/illustrations/leaf-pink-round.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l9">
+    <img src="images/illustrations/leaf-cyan-2.png" alt="bg-shape">
+  </div>
+  <!-- social icon -->
+  <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
+    <!--<li class="mb-3"><a class="text-white" href="#"><i class="ti-facebook"></i></a></li>-->
+    <li class="mb-3"><a class="text-white" href="https://www.instagram.com/alexjowilson7/"><i class="ti-instagram"></i></a></li>
+    <!--<li class="mb-3"><a class="text-white" href="#"><i class="ti-dribbble"></i></a></li>-->
+    <!--<li class="mb-3"><a class="text-white" href="#"><i class="ti-twitter"></i></a></li>-->
+  </ul>
+  <!-- /social icon -->
+</section>
+<!-- /hero area -->
 
-	<div class="container">
-		
-		<div class="row section topspace">
-			<div class="col-md-12">
-				<p class="lead text-center text-muted">Let me tell you something my friend. hope is a dangerous thing. hope can drive a man insane. you <a href="about.html">measure</a> yourself by the people who measure themselves by you. it only took me <a href="sidebar-right.html">six days</a>. </p>
-			</div>
-		</div> <!-- / section -->
-		
-		<div class="row section featured topspace">
-			<h2 class="section-title"><span>Services</span></h2>
-			<div class="row">
-				<div class="col-sm-6 col-md-3">
-					<h3 class="text-center">Custom website design</h3>
-					<p>I don't think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn't eat for three weeks. i once heard a wise man say there are no perfect men.</p>
-					<p class="text-center"><a href="" class="btn btn-action">Read more</a></p>
-				</div>
-				<div class="col-sm-6 col-md-3">
-					<h3 class="text-center">Wordpress integration</h3>
-					<p>I don't think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn't eat for three weeks. i once heard a wise man say there are no perfect men.</p>
-					<p class="text-center"><a href="" class="btn btn-action">Read more</a></p>
-				</div>
-				<div class="col-sm-6 col-md-3">
-					<h3 class="text-center">Application development</h3>
-					<p>I don't think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn't eat for three weeks. i once heard a wise man say there are no perfect men.</p>
-					<p class="text-center"><a href="" class="btn btn-action">Read more</a></p>
-				</div>
-				<div class="col-sm-6 col-md-3">
-					<h3 class="text-center">SEO &amp; SEM services</h3>
-					<p>I don't think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn't eat for three weeks. i once heard a wise man say there are no perfect men.</p>
-					<p class="text-center"><a href="" class="btn btn-action">Read more</a></p>
-				</div>
-			</div>
-		</div> <!-- / section -->
-	
-		<div class="row section recentworks topspace">
-			
-			<h2 class="section-title"><span>Recent Works</span></h2>
-			
-			<div class="thumbnails recentworks row">
-				
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="sidebar-right.html">
-						<span class="img">
-							<img src="assets/images/s1.jpg" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-						<span class="title">Sample title - big data solutions</span>
-					</a>
-					<span class="details"><a href="">Web design</a> | <a href="">Wordpress</a> | <a href="">Logotype</a></span>
-					<h4></h4>
-					<p></p>
-				</div>
-				
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="sidebar-right.html">
-						<span class="img">
-							<img src="assets/images/s1.jpg" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-						<span class="title">Pure ipsum - development services for people</span>
-					</a>
-					<span class="details"><a href="">Web design</a> | <a href="">Wordpress</a></span>
-					<h4></h4>
-					<p></p>
-				</div>
-				
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="sidebar-right.html">
-						<span class="img">
-							<img src="assets/images/s1.jpg" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-						<span class="title">Lorem studios - interior and patio design</span>
-					</a>
-					<span class="details"><a href="">Web design</a> | <a href="">Logotype</a></span>
-					<h4></h4>
-					<p></p>
-				</div>
+<!-- about -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-center">
+        <p class="font-secondary paragraph-lg text-dark">
+          I'm currently a senior at WWU, studying Computer Science. My expected graduation is Winter 2022.
+          I'm a hard-working, motiviated, and passionate individual when it comes to programming. I have a passion for web development and I am currently learning React.js.
+        </p>
+        <a href="about.html" class="btn btn-transparent">know more</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /about -->
 
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="sidebar-right.html">
-						<span class="img">
-							<img src="assets/images/s1.jpg" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-						<span class="title">Pure ipsum - development services for people</span>
-					</a>
-					<span class="details"><a href="">Web design</a> | <a href="">Wordpress</a></span>
-					<h4></h4>
-					<p></p>
-				</div>
-				
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="sidebar-right.html">
-						<span class="img">
-							<img src="assets/images/s1.jpg" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-						<span class="title">Lorem studios - interior and patio design</span>
-					</a>
-					<span class="details"><a href="">Web design</a> | <a href="">Logotype</a></span>
-					<h4></h4>
-					<p></p>
-				</div>
+<!-- skills -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">Skills</h2>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+        <div class="card shadow text-center">
+          <div class="position-relative rounded-top progress-wrapper" data-color="#fdb157">
+            <div class="wave" data-progress="90%"></div>
+          </div>
+          <div class="card-footer bg-white">
+            <h4 class="card-title"><b>Web Design</b></h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+        <div class="card shadow text-center">
+          <div class="position-relative rounded-top progress-wrapper" data-color="#9473e6">
+            <div class="wave" data-progress="90%"></div>
+          </div>
+          <div class="card-footer bg-white">
+            <h4 class="card-title"><b>Programming Languages:</b> <br> Java, C, Python, Kotlin, TypeScript, JavaScript </h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+        <div class="card shadow text-center">
+          <div class="position-relative rounded-top progress-wrapper" data-color="#bdecf6">
+            <div class="wave" data-progress="80%"></div>
+          </div>
+          <div class="card-footer bg-white">
+            <h4 class="card-title"><b>Technologies:</b> <br> Angular.js, Docker, Node.js, Express.js, HTML/CSS, jQuery, Git, PostgreSQL, MySQL</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+        <div class="card shadow text-center">
+          <div class="position-relative rounded-top progress-wrapper" data-color="#ffbcaa">
+            <div class="wave" data-progress="70%"></div>
+          </div>
+          <div class="card-footer bg-white">
+            <h4 class="card-title"><b>Android Development:</b> <br>Android Studio, Kotlin</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /skills -->
 
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="sidebar-right.html">
-						<span class="img">
-							<img src="assets/images/s1.jpg" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-						<span class="title">Lorem studios - interior and patio design</span>
-					</a>
-					<span class="details"><a href="">Web design</a> | <a href="">Logotype</a></span>
-					<h4></h4>
-					<p></p>
-				</div>
-			</div>
+<!-- experience -->
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-around">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">Projects</h2>
+      </div>
 
-		</div> <!-- /section -->
+      <div class="col-lg-3 col-md-4 text-center">
+        <img src="images/experience/icon-1.png" alt="icon">
+        <p class="mb-0">December 2021</p>
+        <h4>React Expense Tracker</h4>
+        <h6 class="text-light">React Expense tracker where a user can add in their expenses on a given date, month, and year. The application updates the expenses dynamically based on what the user logs in as an expense. The user can toggle between years to view their expenses in a given year. There is also a chart to view months with the most expenses. </h6>
+        <h6 class="text-light"><a href="https://alexjowilson.com/First-React-Project/">https://alexjowilson.com/First-React-Project/</a></h6>
+      </div>
 
-		<div class="row section topspace">
-			<div class="panel panel-cta"><div class="panel-body">
-				<div class="col-lg-8">
-					<p>A simple, nice-looking <b>call to action box</b>. Boxing is about respect. getting it for yourself, 
-					and taking it away from the other guy. no, this is mount everest. </p>
-				</div>
-				<div class="col-lg-4 text-right">
-					<a href="http://www.gettemplate.com/downloads/initio.zip " class="btn btn-primary btn-lg">Download template</a>
-				</div>
-			</div></div>
-		</div> <!-- /section -->
 
-		<div class="row section clients topspace">
-			<h2 class="section-title"><span>Clients</span></h2>
-			<div class="col-lg-12">
-				<p>
-					<img src="assets/images/sample_clients.png" alt="">
-				</p>
-			</div>
-		</div> <!-- /section -->
 
-	</div>	<!-- /container -->
+      <div class="col-lg-3 col-md-4 text-center">
+        <img src="images/experience/icon-3.png" alt="icon">
+        <p class="mb-0">March 2021 - Currently</p>
+        <h4>Water Weather Station (WWXS)</h4>
+        <h6 class="text-light">The WWXS product logs sensor data and collects water information, such as temperature and turbidity from buoys that are located at the SEA Discovery center. The water data is obtained by the user transferring the data into our Android app. Once the Android app has the water data, our app sends the data to our PostgreSQL database in which our Angular Web-UI can grab the water data to display to the user via line charts and tables.</h6>
+      </div>
 
-</main>
+      <div class="col-lg-3 col-md-4 text-center">
+        <img src="images/experience/icon-1.png" alt="icon">
+        <p class="mb-0">March 2021 - June 2021</p>
+        <h4>What's in Your Fridge?</h4>
+        <h6 class="text-light">Created an Android App that creates recipes based on what the user has in their fridge. I used the Spoonacular API, to generate the recipes. The app has a working database and notification services.</h6>
+      </div>
+      <div class="col-lg-3 col-md-4 text-center">
+        <img src="images/experience/icon-2.png" alt="icon">
+        <p class="mb-0">January 2021 - March 2021</p>
+        <h4>Search Yourself</h4>
+        <h6 class="text-light">A website where a user can upload a picture of themselves and find where they are on the web. My team and I used Google's reverse search API to achieve this. 
+        </h6>
+      </div>
+      <div class="col-lg-3 col-md-4 text-center">
+        <img src="images/experience/icon-3.png" alt="icon">
+        <p class="mb-0">June 2020 - August 2020</p>
+        <h4>Chat Room Server</h4>
+        <h6 class="text-light">A server for a simple online chat application done in C. Used socket programming fundamentals to get this accomplished.</h6>
+      </div>
+      <div class="col-lg-3 col-md-4 text-center">
+        <img src="images/experience/icon-1.png" alt="icon">
+        <p class="mb-0">March 2020 - June 2020</p>
+        <h4>Microshell</h4>
+        <h6 class="text-light">A simple shell created in C that is capable of processing common shell commands like cd, ls, pipes, processing scripts, etc.</h6>
+      </div>
+      <div class="col-lg-3 col-md-4 text-center">
+        <img src="images/experience/icon-2.png" alt="icon">
+        <p class="mb-0">January 2020 - March 2020</p>
+        <h4>Deadwood GUI Boardgame</h4>
+        <h6 class="text-light">In class project of the Deadwood boardgame done in Java to enforce OOP concepts. I parsed a parsed a large XML file that contains the data of the game fundamentals such as game cards, player stats, location of players on board etc.</h6>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ./experience -->
 
-<footer id="footer">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-3 widget">
-				<h3 class="widget-title">Contact</h3>
-				<div class="widget-body">
-					<p>+234 23 9873237<br>
-						<a href="mailto:#">some.email@somewhere.com</a><br>
-						<br>
-						234 Hidden Pond Road, Ashland City, TN 37015
-					</p>	
-				</div>
-			</div>
+<!-- education -->
+<section class="section position-relative">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">Education</h2>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+            <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">2022</p>
+            <h4>Bachelors of Science in Computer Science</h4>
+            <p class="mb-0 text-light">Western Washington University</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- bg image -->
+  <img class="img-fluid edu-bg-image w-100" src="images/backgrounds/education-bg.png" alt="bg-image">
+</section>
+<!-- /education -->
 
-			<div class="col-md-3 widget">
-				<h3 class="widget-title">Follow me</h3>
-				<div class="widget-body">
-					<p class="follow-me-icons">
-						<a href=""><i class="fa fa-twitter fa-2"></i></a>
-						<a href=""><i class="fa fa-dribbble fa-2"></i></a>
-						<a href=""><i class="fa fa-github fa-2"></i></a>
-						<a href=""><i class="fa fa-facebook fa-2"></i></a>
-					</p>
-				</div>
-			</div>
+<!-- services -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Services</h2>
+      </div>
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card hover-shadow shadow">
+          <div class="card-body text-center px-4 py-5">
+            <i class="ti-palette icon mb-5 d-inline-block"></i>
+            <h4 class="mb-4">Building Websites</h4>
+            <p>I am very passionate and competent when it comes to building websites. If you need a website, feel free to reach out to me!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /services -->
 
-			<div class="col-md-3 widget">
-				<h3 class="widget-title">Text widget</h3>
-				<div class="widget-body">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nihil natus explicabo ipsum quia iste aliquid repellat eveniet velit ipsa sunt libero sed aperiam id soluta officia asperiores adipisci maxime!</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nihil natus explicabo ipsum quia iste aliquid repellat eveniet velit ipsa sunt libero sed aperiam id soluta officia asperiores adipisci maxime!</p>
-				</div>
-			</div>
+  <!-- bg shapes -->
+  <img src="images/backgrounds/map.png" alt="map" class="img-fluid bg-map">
+  <img src="images/illustrations/dots-group-v.png" alt="bg-shape" class="img-fluid bg-shape-1">
+  <img src="images/illustrations/leaf-orange.png" alt="bg-shape" class="img-fluid bg-shape-2">
+  <img src="images/illustrations/dots-group-sm.png" alt="bg-shape" class="img-fluid bg-shape-3">
+  <img src="images/illustrations/leaf-pink-round.png" alt="bg-shape" class="img-fluid bg-shape-4">
+  <img src="images/illustrations/leaf-cyan.png" alt="bg-shape" class="img-fluid bg-shape-5">
+</section>
+<!-- /testimonial -->
 
-			<div class="col-md-3 widget">
-				<h3 class="widget-title">Form widget</h3>
-				<div class="widget-body">
-					<p>+234 23 9873237<br>
-						<a href="mailto:#">some.email@somewhere.com</a><br>
-						<br>
-						234 Hidden Pond Road, Ashland City, TN 37015
-					</p>	
-				</div>
-			</div>
 
-		</div> <!-- /row of widgets -->
-	</div>
+<!-- contact -->
+<section class="section section-on-footer" data-background="images/backgrounds/bg-dots.png">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Contact Info</h2>
+      </div>
+      <div class="col-lg-8 mx-auto">
+        <div class="bg-white rounded text-center p-5 shadow-down">
+          <h4 class="mb-80">Contact Form</h4>
+          <form method="POST" action="https://formspree.io/f/xbjqzybq" class="row">
+            <div class="col-md-6">
+              <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
+            </div>
+            <div class="col-md-6">
+              <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4">
+            </div>
+            <div class="col-12">
+              <textarea name="message" id="message" class="form-control px-0 mb-4"
+                placeholder="Type Message Here"></textarea>
+            </div>
+            <div class="col-lg-6 col-10 mx-auto">
+              <button class="btn btn-primary w-100">send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /contact -->
+
+<!-- footer -->
+<footer class="bg-dark footer-section">
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5 class="text-light">Email</h5>
+          <p class="text-white paragraph-lg font-secondary">alexjowilson7@gmail.com</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light">Phone</h5>
+          <p class="text-white paragraph-lg font-secondary">+425 551 0251</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light">Location</h5>
+          <p class="text-white paragraph-lg font-secondary">Bellingham, WA, USA</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="border-top text-center border-dark py-5">
+    <p class="mb-0 text-light">Created by Alex Wilson | © <script>
+        var CurrentYear = new Date().getFullYear()
+        document.write(CurrentYear)
+      </script> All rights reserved.</p>
+  </div>
 </footer>
+<!-- /footer -->
 
-<footer id="underfooter">
-	<div class="container">
-		<div class="row">
-			
-			<div class="col-md-6 widget">
-				<div class="widget-body">
-					<p>234 Hidden Pond Road, Ashland City, TN 37015 </p>
-				</div>
-			</div>
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- filter -->
+<script src="plugins/shuffle/shuffle.min.js"></script>
 
-			<div class="col-md-6 widget">
-				<div class="widget-body">
-					<p class="text-right">
-						Copyright &copy; 2014, Your awesome name here<br> 
-						Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> </p>
-				</div>
-			</div>
+<!-- Main Script -->
+<script src="js/script.js"></script>
 
-		</div> <!-- /row of widgets -->
-	</div>
-</footer>
-
-
-
-<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-<script src="assets/js/template.js"></script>
 </body>
 </html>
