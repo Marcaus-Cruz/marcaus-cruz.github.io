@@ -75,7 +75,8 @@ h5, .h5 {
 }
 
 h6, .h6 {
-  font-size: 14px;
+  font-size: 18px;
+  text-align: left;
 }
 
 /* Button style */
@@ -441,8 +442,9 @@ body::-webkit-scrollbar-thumb {
 
 /* /card */
 .navigation {
-  padding: 40px 130px;
+  padding: 20px 100px;
   transition: .3s ease;
+  border-bottom: white 2px solid;
 }
 
 .navigation.nav-bg {

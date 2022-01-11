@@ -31,7 +31,7 @@
 
 <header class="navigation fixed-top">
   <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand font-tertiary h3" id="lol" href="index.html"><img src="images/white_logo_transparent_background.png" alt="Myself"></a>
+    <a class="navbar-brand font-tertiary h3" id="lol" href="index.html"><img src="images/MClogoWhite.png" alt="Myself"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
       aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -45,14 +45,6 @@
         <li class="nav-item">
           <a class="nav-link" href="about.html">about</a>
         </li>
-        <!--
-        <li class="nav-item">
-          <a class="nav-link" href="blog.html">Blog</a>
-        </li>-->
-        <!--
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>-->
         <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact</a>
         </li>
@@ -114,7 +106,7 @@
     <div class="row">
       <div class="col-lg-10 mx-auto text-center">
         <p class="font-secondary paragraph-lg text-dark">
-          I'm a recent Computer Science graduate out of Western Washington University. For about the past year, I've been focusing on web development
+          I'm a recent Computer Science graduate out of Western Washington University. For the past year, I've been focusing on web development
           through my senior project and other side projects, mainly using HTML/CSS and Javascript... with some PHP. Along with that, I've had the privilege 
           of assisting with research in the hardware security realm, developing software representations using Python. I absolutely loved both of these projects
           because of the amount of problem solving that had to be done.
@@ -187,6 +179,90 @@
       </div>
 
       <div class="col-lg-3 col-md-4 text-center">
+        <img src="images/experience/icon-3.png" alt="icon">
+        <p class="mb-0">January 2021 - December 2021</p>
+        <h4>CAAML Web Tool</h4>
+        <h6>Practiced the Agile Scrum development process with a team of 4 to create a website used by college professors to improve their lecture efficiency.
+                               It does this by reading the annotated output of a ML audio analysis algorithm called CAAML (a black box we were provided with from our client). CAAML determines snippets of audio
+                              into 1 of 9 categories, some examples being Student Question, Group Work, Instructor Question, and Lecture. Our website organizes lectures by
+                              course and courses by term using a mock database in a file system. Upon arrival on a course page, the user is able to toggle through various graphs created using D3.js which were designed to 
+                              visualize the way the professor is lecturing for analysis. The user has many controls over these graphs as they were built from scratch to meet our client's requests.
+                              <br>
+                              <br>
+                              Tools used: Agile Scrum, HTML, CSS, JavaScript, Node.js, Express.js, D3.js, Adobe XD, Trello, CAS Login System
+        </h6>
+      </div>
+
+      <div class="col-lg-3 col-md-4 text-center">
+        <img src="images/experience/icon-2.png" alt="icon">
+        <p class="mb-0">January 2021 - March 2021</p>
+        <h4>What's For Dinner</h4>
+        <h6>Implemented an Android app in which the user inputs what they have in their virtual 'pantry' and recieves a list of recipes from a Volley API call that 
+            they're able to cook at the moment. This app is connected to a database using SQLite for persistent data and has other features like a shopping list, a Google maps API that shows
+            the user the nearest grocery stores, and a camera button for shareable pictures of their creations. In the MVC architecture, I worked primarily on the view and controller. This 
+            was my first full mobile app I've ever worked on so it was a big learning experience for me and helped reinforce my understanding of MVC, dynamically updating pages, and database
+            connection and manipulation.
+            <br>
+            <br>
+            Tools used: Adobe XD, Android Studio, Java, SQLite, Google Maps API, Volley API
+        </h6>
+      </div>
+
+      <div class="col-lg-3 col-md-4 text-center">
+        <img src="images/experience/icon-1.png" alt="icon">
+        <p class="mb-0">November 2020 - December 2020</p>
+        <h4>TCP Chatroom</h4>
+        <h6>Created a server/client based command line chatroom with a partner using the TCP protocol in C. Once the server is connected, participants or observers can enter the chat room. Participants are able 
+            to send global messages or direct messges to specific participants. Observers tune in by picking a participants username who's already in the chatroom where they can see any direct messages to their
+            participant or any global message. In other words, participants act as the message box of a chatroom and observers act as the viewing box of that participant. This project helped me understand 
+            socket connections, timeout implementations, buffer overflow handling, message handling, the TCP protocol, server/client communication, and forking. 
+            <br>
+            <br>
+            Tools used: Git CICD, C, TCP Protocol
+          </h6>
+      </div>
+      
+      <div class="col-lg-3 col-md-4 text-center">
+        <img src="images/experience/icon-2.png" alt="icon">
+        <p class="mb-0">April 2020 - June 2020</p>
+        <h4>Deadwood GUI</h4>
+        <h6>Worked with a partner on a clickable graphical representation of the board game, Deadwood. We were given XML files which we parsed to obtain all illustrations needed for the game.
+            Using JavaFX, we practiced MVC architectural skills, Object Oriented Design and Programming, Class inheritence understanding, Interface knowledge, and game concepts. This was a 
+            pain of a project with tight deadlines and workload I had with that class alone. It was my first taste of strict time management which helped me tremendously through the rest of
+            my college career.
+            <br>
+            <br>
+            Tools used: UML Class diagrams,  JavaFX, Java, XML, MVC Architecture  
+          </h6>
+      </div>
+
+      <div class="col-lg-3 col-md-4 text-center">
+        <img src="images/experience/icon-1.png" alt="icon">
+        <p class="mb-0">January 2020 - March 2020</p>
+        <h4>UShell</h4>
+        <h6>Implemented a microshell in C that is capable of processing common shell commands like cd, ls, piping, signal interrupts, and expanding environmental variables.
+            This was my first time programming in C so this project helped me learn a lot about how pointers worked, argument parsing, buffer overflow, parent and child processes, 
+            structs, Makefiles, and segmentation faults. It also gave me the opportunity to apply
+            my knowledge of state machines a great deal and was a pivotal turning point in the way I analyzed and solved a problem before putting it into code.
+            <br>
+            <br>
+            Tools used: State Machines, C, GDB
+        </h6>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- ./experience -->
+
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-around">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">Current Projects</h2>
+      </div>
+
+      <div class="col-lg-3 col-md-4 text-center">
         <img src="images/experience/icon-1.png" alt="icon">
         <p class="mb-0">December 2021</p>
         <h4>React Expense Tracker</h4>
@@ -194,53 +270,31 @@
         <h6 class="text-light"><a href="https://alexjowilson.com/First-React-Project/">https://alexjowilson.com/First-React-Project/</a></h6>
       </div>
 
-
-
-      <div class="col-lg-3 col-md-4 text-center">
-        <img src="images/experience/icon-3.png" alt="icon">
-        <p class="mb-0">March 2021 - Currently</p>
-        <h4>Water Weather Station (WWXS)</h4>
-        <h6 class="text-light">The WWXS product logs sensor data and collects water information, such as temperature and turbidity from buoys that are located at the SEA Discovery center. The water data is obtained by the user transferring the data into our Android app. Once the Android app has the water data, our app sends the data to our PostgreSQL database in which our Angular Web-UI can grab the water data to display to the user via line charts and tables.</h6>
-      </div>
-
-      <div class="col-lg-3 col-md-4 text-center">
-        <img src="images/experience/icon-1.png" alt="icon">
-        <p class="mb-0">March 2021 - June 2021</p>
-        <h4>What's in Your Fridge?</h4>
-        <h6 class="text-light">Created an Android App that creates recipes based on what the user has in their fridge. I used the Spoonacular API, to generate the recipes. The app has a working database and notification services.</h6>
-      </div>
-      <div class="col-lg-3 col-md-4 text-center">
-        <img src="images/experience/icon-2.png" alt="icon">
-        <p class="mb-0">January 2021 - March 2021</p>
-        <h4>Search Yourself</h4>
-        <h6 class="text-light">A website where a user can upload a picture of themselves and find where they are on the web. My team and I used Google's reverse search API to achieve this. 
-        </h6>
-      </div>
-      <div class="col-lg-3 col-md-4 text-center">
-        <img src="images/experience/icon-3.png" alt="icon">
-        <p class="mb-0">June 2020 - August 2020</p>
-        <h4>Chat Room Server</h4>
-        <h6 class="text-light">A server for a simple online chat application done in C. Used socket programming fundamentals to get this accomplished.</h6>
-      </div>
-      <div class="col-lg-3 col-md-4 text-center">
-        <img src="images/experience/icon-1.png" alt="icon">
-        <p class="mb-0">March 2020 - June 2020</p>
-        <h4>Microshell</h4>
-        <h6 class="text-light">A simple shell created in C that is capable of processing common shell commands like cd, ls, pipes, processing scripts, etc.</h6>
-      </div>
-      <div class="col-lg-3 col-md-4 text-center">
-        <img src="images/experience/icon-2.png" alt="icon">
-        <p class="mb-0">January 2020 - March 2020</p>
-        <h4>Deadwood GUI Boardgame</h4>
-        <h6 class="text-light">In class project of the Deadwood boardgame done in Java to enforce OOP concepts. I parsed a parsed a large XML file that contains the data of the game fundamentals such as game cards, player stats, location of players on board etc.</h6>
-      </div>
     </div>
   </div>
 </section>
-<!-- ./experience -->
 
 <!-- education -->
 <section class="section position-relative">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">Experience</h2>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+            <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">October 2020 - December 2021</p>
+            <h4>PUF Research</h4>
+            <p class="mb-0 text-light">Professor Tarek Idriss</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -252,7 +306,7 @@
             <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
           </div>
           <div>
-            <p class="text-dark mb-1">2022</p>
+            <p class="text-dark mb-1">2017 - 2021</p>
             <h4>Bachelors of Science in Computer Science</h4>
             <p class="mb-0 text-light">Western Washington University</p>
           </div>
