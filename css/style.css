@@ -405,10 +405,30 @@ textarea.form-control {
   height: 120px;
 }
 
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: orange;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #2aaff1;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid orange;  /* creates padding around scroll thumb */
+}
+
 /* /form */
 /* card */
 .card {
   border: 0;
+  /*border: black 2px solid;
+  overflow-y: scroll;
+  max-height: 500px;*/
+  min-height: 800px;
+  margin: 20px 0;
+  
 }
 
 .card-header {
