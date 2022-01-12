@@ -429,7 +429,9 @@ body::-webkit-scrollbar-thumb {
   max-height: 500px;*/
   min-height: 800px;
   margin: 20px 0;
-  
+}
+.index-card {
+  border: 0;
 }
 
 .card-header {
