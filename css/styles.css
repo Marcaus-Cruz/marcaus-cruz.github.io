@@ -89,6 +89,18 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+/* Additions */
+
+.sectional{
+  padding: 20px;
+  margin: auto;
+}
+.sectional-child{
+  width: 25%;
+  float: left;
+  padding: 20px;
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;

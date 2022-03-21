@@ -6,7 +6,7 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Marcaus Cruz</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -14,23 +14,27 @@
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!--Favicon-->
+        <link rel="shortcut icon" href="assets/img/MClogoWhite.png" type="image/x-icon">
+        <link rel="icon" href="assets/img/MClogoWhite.png" type="image/x-icon">
     </head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">Marcaus Cruz</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/me.JPG" alt="A photo of Marcaus" /></span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li> -->
                 </ul>
             </div>
         </nav>
@@ -47,10 +51,10 @@
                         3419 NW 116th Way · Vancouver, WA 98685 · (360) 821-9681 ·
                         <a href="mailto:marcauscruz@gmail.com">marcauscruz@gmail.com</a>
                     </div>
-                    <p class="lead mb-5">I'm a recent Computer Science graduate out of Western Washington University. For the past year, I've been focusing on web development
-                        through my senior project and other side projects, mainly using HTML/CSS and Javascript... with some PHP. Along with that, I've had the privilege 
+                    <p class="lead mb-5">I'm a recent Computer Science graduate out of Western Washington University. For the past year and a half, I've been focusing on web development
+                        through my senior project and other side projects, mainly using HTML/CSS and Javascript, PHP, and React. Along with that, I've had the privilege 
                         of assisting with research in the hardware security realm, developing software representations using Python. I absolutely loved both of these projects
-                        because of the amount of problem solving that had to be done.</p>
+                        because of the amount of learning and problem solving that had to be done.</p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/marcaus-cruz/"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="#!"><i class="fab fa-github"></i></a>
@@ -62,6 +66,29 @@
             <section class="resume-section" id="experience">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Experience</h2>
+                    
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Research Assistant</h3>
+                            <div class="subheading mb-3">Western Washington University -- Professor Tarek Idriss</div>
+                            <p>Implemented and tested numerous Python-based software representations of novel hardware security ideas. Created scripts for machine learning benchmarking on computed data from the software representations.
+                                Logged and analyzed results using wanDB to examine the security measures against other types of PUFs.
+                            </p>
+                            <p class="mb-0">PUF Overview: PUF stands for Physically Unclonable Functions and aims to use the uniqueness of integrated circuits (ICs) of a device at the microscopic level
+                                to generate and authenticate keys. The idea is, even if two people purchased the same device, from the same manufacturer, manufactured just seconds apart,
+                                the circuits in those devices still differ just enough to be unique- like a snowflake. We can send signals though these unique ICs, using numerous evaluation techniques,
+                                to create unique keys. Once a key has been obtained, we then run a set of many challenges through the PUF to get the same number of unique responses, these are called 
+                                Challenge-Response Pairs (CRPs). Since we have the set of unique CRPs, we can use them to authenticate any transaction over the internet. A has the CRPs, B has the key, A sends 
+                                B challenges in which they use the key to evaluate, then B sends the responses back to A. If the CRPs match up, then B indeed has the key and is who they say they are.
+                                Types of PUFs I worked on <a href="summer_puf_7152021.pdf">here</a>
+                               <br>
+                               <br>
+                               Tools used: Python, Tensorflow, WanDB, LaTeX, Microsoft Excel 
+                      </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">October 2020 - December 2021</span></div>
+                    </div>
+
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Front End Web Developer</h3>
@@ -77,42 +104,91 @@
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">January 2021 - December 2021</span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Research Assistant</h3>
-                            <div class="subheading mb-3">Western Washington University -- Professor Tarek Idriss</div>
-                            <p>Implemented and tested numerous Python-based software representations of novel hardware security ideas. Created scripts for machine learning benchmarking on computed data from the software representations.
-                                Logged and analyzed results using wanDB to examine the security measures against other types of PUFs.
-                            </p>
-                            <p class="mb-0">PUF Overview: PUF stands for Physically Unclonable Functions and aims to use the uniqueness of integrated circuits (ICs) of a device at the microscopic level
-                                to generate and authenticate keys. The idea is, even if two people purchased the same device, from the same manufacturer, manufactured just seconds apart,
-                                the circuits in those devices still differ just enough to be unique- like a snowflake. We can send signals though these unique ICs, using numerous evaluation techniques,
-                                to create unique keys. Once a key has been obtained, we then run a set of many challenges through the PUF to get the same number of unique responses, these are called 
-                                Challenge-Response Pairs (CRPs). Since we have the set of unique CRPs, we can use them to authenticate any transaction over the internet. A has the CRPs, B has the key, A sends 
-                                B challenges in which they use the key to evaluate, then B sends the responses back to A. If the CRPs match up, then B indeed has the key and is who they say they are.
-                      </p>
-                      <p>Types of PUFs I worked on <a href="summer_puf_7152021.pdf">here</a>.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">October 2020 - December 2021</span></div>
-                    </div>
-                    <!-- <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Junior Web Designer</h3>
-                            <div class="subheading mb-3">Shout! Media Productions</div>
-                            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Design Intern</h3>
-                            <div class="subheading mb-3">Shout! Media Productions</div>
-                            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2008 - June 2010</span></div>
-                    </div> -->
                 </div>
             </section>
+            <hr class="m-0" />
+            <!-- Projects-->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Food Order App</h3>
+                            <p> Created a web application to mock a real world scenario where customers can visit a resturaunts website and order food off of their menu.
+                                This projects purpose was to get me more familiar with a larger application and the power of Reacts dynamic front end capabilities.
+                                <br>
+                                <br>
+                                Tools used: HTML, CSS, JavaScript, JSX, React.js, Node.js, Express.js, VS Code, Git
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">March 2022</span></div>
+                    </div>
+                    
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">What's for Dinner</h3>
+                            <p> Implemented an Android app in which the user inputs what they have in their virtual 'pantry' and recieves a list of recipes from a Volley API call that 
+                                they're able to cook at the moment. This app is connected to a database using SQLite for persistent data and has other features like a shopping list, a Google maps API that shows
+                                the user the nearest grocery stores, and a camera button for shareable pictures of their creations. In the MVC architecture, I worked primarily on the view and controller. This 
+                                was my first full mobile app I've ever worked on so it was a big learning experience for me and helped reinforce my understanding of MVC, dynamically updating pages, and database
+                                connection and manipulation.
+                                <br>
+                                <br>
+                                Tools used: Java, Adobe XD, Android Studio, SQLite, Google Maps API, Volley API, Git
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">January 2021 - March 2021</span></div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">TCP Chatroom</h3>
+                            <p> Created a server/client based command line chatroom with a partner using the TCP protocol in C. Once the server is connected, participants or observers can enter the chat room. Participants are able 
+                                to send global messages or direct messges to specific participants. Observers tune in by picking a participants username who's already in the chatroom where they can see any direct messages to their
+                                participant or any global message. In other words, participants act as the message box of a chatroom and observers act as the viewing box of that participant. This project helped me understand 
+                                socket connections, timeout implementations, buffer overflow handling, message handling, the TCP protocol, server/client communication, and forking. 
+                                <br>
+                                <br>
+                                Tools used: C, Gitlab CICD, TCP Protocol, Git
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">November 2020 - December 2020</span></div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Deadwood GUI</h3>
+                            <p> Worked with a partner on a clickable graphical representation of the board game, Deadwood. We were given XML files which we parsed to obtain all illustrations needed for the game.
+                                Using JavaFX, we practiced MVC architectural skills, Object Oriented Design and Programming, Class inheritence understanding, Interface knowledge, and game concepts. This was a 
+                                pain of a project with tight deadlines and workload I had with that class alone. It was my first taste of strict time management which helped me tremendously through the rest of
+                                my college career. 
+                                <br>
+                                <br>
+                                Tools used: Java, XML, UML Class Diagrams, JavaFX, MVC Architecture, Use Cases
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">April 2020 - June 2020</span></div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">UShell</h3>
+                            <p> Implemented a microshell in C that is capable of processing common shell commands like cd, ls, piping, signal interrupts, and expanding environmental variables.
+                                This was my first time programming in C so this project helped me learn a lot about how pointers worked, argument parsing, buffer overflow, parent and child processes, 
+                                structs, Makefiles, and segmentation faults. It also gave me the opportunity to apply
+                                my knowledge of state machines a great deal and was a pivotal turning point in the way I analyzed and solved a problem before putting it into code.
+                                <br>
+                                <br>
+                                Tools used: C, State Machines, GDB
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">January 2020 - March 2020</span></div>
+                    </div>
+
+                </div>
+            </section>
+
             <hr class="m-0" />
             <!-- Education-->
             <section class="resume-section" id="education">
@@ -121,9 +197,9 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Western Washington University</h3>
-                            <div class="subheading mb-3">Bachelor of Science</div>
-                            <div>Computer Science</div>
-                            <p>GPA: 3.12</p>
+                            <div class="subheading mb-3">Bachelor of Science - Computer Science</div>
+                            <div>Whiteboard Coders Club, Intramural Football</div>
+                            <p>GPA: 3.11</p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">September 2017 - December 2021</span></div>
                     </div>
@@ -131,6 +207,7 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Skyview High School</h3>
                             <div class="subheading mb-3">AP Student</div>
+                            <div>National Honors Society, GEAR UP, Football, Track and Field, APX, Make-A-Wish Foundation</div>
                             <p>GPA: 3.81</p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">August 2013 - June 2017</span></div>
@@ -146,18 +223,66 @@
                     <ul class="list-inline dev-icons">
                         <li class="list-inline-item"><i class="fab fa-html5"></i></li>
                         <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
+                        <!-- <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-angular"></i></li> -->
                         <li class="list-inline-item"><i class="fab fa-react"></i></li>
                         <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
+                        <!-- <li class="list-inline-item"><i class="fab fa-sass"></i></li>
                         <li class="list-inline-item"><i class="fab fa-less"></i></li>
                         <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
                         <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
                         <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-npm"></i></li> -->
                     </ul>
-                    <div class="subheading mb-3">Workflow</div>
+                    <div class="sectional">
+                        <div class="sectional-child">
+                            <h3>Web Development</h3>
+                            <ul>
+                                <li>HTML/CSS</li>
+                                <li>JavaScript</li>
+                                <li>JSX</li>
+                                <li>PHP</li>
+                                <li>SQL</li>
+                            </ul>
+                        </div>
+                        <div class="sectional-child">
+                            <h3>Programming Languages</h3>
+                            <ul>
+                                <li>Python</li>
+                                <li>Java</li>
+                                <li>C</li>
+                            </ul>
+                        </div>
+                        <div class="sectional-child">
+                            <h3>Libraries</h3>
+                            <ul>
+                                <li>React.js</li>
+                                <li>Node.js</li>
+                                <li>Express.js</li>
+                                <li>Tensorflow</li>
+                                <li>WanDB</li>
+                            </ul>
+                        </div>
+                        <div class="sectional-child">
+                            <h3>Other technologies/tools</h3>
+                            <ul>
+                                <li>Android Studio</li>
+                                <li>Docker</li>
+                                <li>Kubernetes</li>
+                                <li>Git</li>
+                                <li>Bash</li>
+                                <li>MySQL</li>
+                                <li>SQLite</li>
+                                <li>Joomla</li>
+                                <li>CICD</li>
+                                <li>Microsoft Office</li>
+                                <li>VS Code</li>
+                                <li>LaTeX</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <!-- <div class="subheading mb-3">Workflow</div>
                     <ul class="fa-ul mb-0">
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
@@ -169,27 +294,26 @@
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Functional Teams
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
                             Agile Development & Scrum
                         </li>
                     </ul>
-                </div>
+                </div> -->
             </section>
             <hr class="m-0" />
             <!-- Interests-->
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Interests</h2>
-                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, 
+                        I love snowboarding, hiking, and photography. In the summer, you can catch me camping, climbing
+                        mountains, and cruising around a coastal town on my longboard.
+                    </p>
+                    <p class="mb-0">When forced indoors, I am an aspiring chef, an aspiring guitar guru, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
                 </div>
             </section>
             <hr class="m-0" />
             <!-- Awards-->
-            <section class="resume-section" id="awards">
+            <!-- <section class="resume-section" id="awards">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Awards & Certifications</h2>
                     <ul class="fa-ul mb-0">
@@ -233,7 +357,7 @@
                         </li>
                     </ul>
                 </div>
-            </section>
+            </section> -->
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
