@@ -101,6 +101,58 @@ body {
   padding: 20px;
 }
 
+.seeMoreBtn{
+  background-color: white;
+  border: 2px solid #bd5d38;
+  color: #bd5d38;
+  border-radius: 20px;
+
+  padding: 10px 20px;
+}
+
+.seeMoreBtn:hover{
+  cursor: pointer;
+  color: white;
+  border-color: white;
+  background-color: #bd5d38;
+}
+
+#caaml-screenshots{
+  height: 0;
+  visibility: hidden;
+  overflow-y: hidden;
+  overflow-y: hidden;
+}
+
+.screenshotDiv{
+  width: 100%;
+  text-align: center;
+  margin: 20px 10px;
+  padding: 20px;
+
+  background-color: dimgray;
+}
+
+.screenshotDiv h3{
+  color: white;
+}
+
+
+.screenshotDiv p{
+  color: white;
+  margin: 20px auto;
+}
+
+.screenshot{
+  margin: auto;
+  height: 400px;
+  width: 800px;
+}
+
+
+
+/* End of Additions */
+
 hr {
   margin: 1rem 0;
   color: inherit;
