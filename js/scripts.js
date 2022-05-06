@@ -36,20 +36,6 @@ window.addEventListener('DOMContentLoaded', event => {
 function showCaamlDiv() {
     const caamlDiv = document.getElementById("caaml-screenshots");
     const showBtn =  document.getElementById("caaml-see-more");
-    // const par1 = document.createElement("h1");
-
-    // if(showBtn.innerHTML === "See More"){
-    //     par1.textContent= "Hello world";
-    //     par1.setAttribute("color", "black");
-
-    //     caamlDiv.append(par1);
-    //     showBtn.innerHTML = "Hide"
-    // } else{
-    //     while(caamlDiv.firstChild){
-    //         caamlDiv.removeChild(caamlDiv.firstChild);
-    //     }
-    //     showBtn.innerHTML = "See More";
-    // }
 
     if(showBtn.innerHTML === "See More"){
             caamlDiv.style.visibility = "visible"
