@@ -164,7 +164,9 @@
                         <div class="screenshotDiv">
                             <h3>Course Page -- Heat Map</h3>
                             <img  src="./assets/img/caaml/caaml9.png" class="screenshot">
-                            <p></p>
+                            <p>Here's the course page that will automatically compute graphs based on the lectures logged for that course. Here are demonstrations of the 
+                                various graphs my team's implemented.
+                            </p>
                         </div>
                         <div class="screenshotDiv">
                             <h3>Course Page -- Heat Map</h3>
@@ -276,29 +278,35 @@
 
                     <div id="chatroom-screenshots" class="seeMoreDiv">
                         <div class="screenshotDiv">
-                            <h3></h3>
+                            <h3>Commands for initiating chatroom</h3>
                             <img src="./assets/img/chatroom/chatroom1.png" class="screenshot">
-                            <p></p>
+                            <p>I'm using Tmux to host two observer windows (top left/right), two participant windows (bottom left/right), and one server window (middle).
+                                The commands to run these programs are typed in, and you can find on my github.
+                            </p>
                         </div>
                         <div class="screenshotDiv">
-                            <h3></h3>
+                            <h3>Server start/connections made</h3>
                             <img src="./assets/img/chatroom/chatroom2.png" class="screenshot">
-                            <p></p>
+                            <p>Upon running the proper commands, the server will listen on the observer and participant ports for connections. Once connected as a participant,
+                                type in a username to join the chatroom. Once connected as an observer, type in a username of a connected participant you want to observe.
+                            </p>
                         </div>
                         <div class="screenshotDiv">
-                            <h3></h3>
+                            <h3>Participant Connection</h3>
                             <img src="./assets/img/chatroom/chatroom3.png" class="screenshot">
-                            <p></p>
+                            <p>Server will reflect who's joined</p>
                         </div>
                         <div class="screenshotDiv">
-                            <h3></h3>
+                            <h3>Observer Connection and messaging</h3>
                             <img src="./assets/img/chatroom/chatroom4.png" class="screenshot">
-                            <p></p>
+                            <p>Observers can see all global messages or private messages intened to the participant they're connected to.</p>
                         </div>
                         <div class="screenshotDiv">
-                            <h3></h3>
+                            <h3>Private message</h3>
                             <img src="./assets/img/chatroom/chatroom5.png" class="screenshot">
-                            <p></p>
+                            <p>You can see that user_two (right) sends a private message to user_one by starting the message with "@user_one " and is denoted on user_one's observer
+                                through a "%" symbol. You can also see that user_two's observer cannot see that private message. If the participant tries to send a private message to 
+                            an invalid user, the server handles it and tell's that participants connected observer that the intended user does not exist. </p>
                         </div>
                     </div>
 
