@@ -117,12 +117,19 @@ body {
   background-color: #bd5d38;
 }
 
-#caaml-screenshots{
+.seeMoreDiv{
   height: 0;
   visibility: hidden;
   overflow-y: hidden;
   overflow-y: hidden;
 }
+
+/* #caaml-screenshots{
+  height: 0;
+  visibility: hidden;
+  overflow-y: hidden;
+  overflow-y: hidden;
+} */
 
 .screenshotDiv{
   width: 100%;

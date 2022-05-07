@@ -33,22 +33,22 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
-function showCaamlDiv() {
-    const caamlDiv = document.getElementById("caaml-screenshots");
-    const showBtn =  document.getElementById("caaml-see-more");
+function showContent(theDiv, theBtn) {
+    const showDiv = document.getElementById(theDiv);
+    const showBtn =  document.getElementById(theBtn);
 
     if(showBtn.innerHTML === "See More"){
-            caamlDiv.style.visibility = "visible"
-            caamlDiv.style.height = "500px";
-            caamlDiv.style.overflowY = "scroll";
-            caamlDiv.style.overflowX = "scroll";
-             showBtn.innerHTML = "Hide";
+            showDiv.style.visibility = "visible"
+            showDiv.style.height = "500px";
+            showDiv.style.overflowY = "scroll";
+            showDiv.style.overflowX = "scroll";
+            showDiv.style.marginBottom = "20px";
+            showBtn.innerHTML = "Hide";
          } else{
-             caamlDiv.style.visibility = "hidden";
-             caamlDiv.style.height = "0px";
-            caamlDiv.style.overflowY = "hidden";
-             showBtn.innerHTML = "See More";
+            showDiv.style.visibility = "hidden";
+            showDiv.style.height = "0px";
+            showDiv.style.overflowY = "hidden";
+            showBtn.innerHTML = "See More";
         }
-
 
 }
